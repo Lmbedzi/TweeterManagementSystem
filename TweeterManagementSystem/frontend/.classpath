@@ -14,6 +14,6 @@
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/backend"/>
-	<classpathentry kind="lib" path="C:/Users/Adi/Documents/eclipse-twitter/twitter4j-4.0.7/lib/twitter4j-core-4.0.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Adi/Documents/eclipse-twitter/TweeterManagementSystem/EarContent/lib/twitter4j-core-4.0.7.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

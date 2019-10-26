@@ -16,7 +16,8 @@
     	   <h:inputText value="#{tweetcontroller.tweet.tweetBody}"></h:inputText>
     	   
     	   </h:panelGrid>
-    	   <h:commandButton value="submit" action="#{tweetcontroller.addNewTweet}"></h:commandButton>
+    	   <h:commandButton value="Save Tweet" action="#{tweetcontroller.addNewTweet}"></h:commandButton>
+    	   <h:commandButton value="Send DM" action="#{tweetcontroller.sendDirectMessage}"></h:commandButton>
     	</h:form>
     </h:body>
 </html>
