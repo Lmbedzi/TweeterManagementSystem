@@ -38,7 +38,7 @@ public class TweetEJB {
     	TwitterFactory tf = new TwitterFactory(cb.build());
     	twitter4j.Twitter t4w =  tf.getInstance();
     	
-    	DirectMessage msg = t4w.sendDirectMessage("@herongwako",message);
+    	DirectMessage msg = t4w.sendDirectMessage("@AdhLecturer",message);
     	
     	System.out.println("Message sent "+ msg);
     }
