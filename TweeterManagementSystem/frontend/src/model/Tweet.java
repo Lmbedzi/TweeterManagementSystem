@@ -11,7 +11,7 @@ import javax.faces.bean.SessionScoped;
 public class Tweet {
 	
 	private String tweetBody;
-	private String timeStamp = new SimpleDateFormat("yyyy-MM-'T'ddHH:mm:ss").format(new Date());
+	private String timeStamp = new SimpleDateFormat("yyyy-MM-'T'HH:mm:ss").format(new Date());
 	
 	public String getTweetBody() {
 		return tweetBody;
