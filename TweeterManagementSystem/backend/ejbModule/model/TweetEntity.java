@@ -16,7 +16,7 @@ public class TweetEntity {
 	@SequenceGenerator(initialValue= 0001, name="tweet_seq")
 	private int tweetID;
 	private String tweetBody;
-	private String timeStamp = new SimpleDateFormat("yyyy-MM-'T'ddHH:mm:ss").format(new Date());
+	private String timeStamp = new SimpleDateFormat("yyyy-MM-'T'HH:mm:ss").format(new Date());
 	
 	public int getTweetID() {
 		return tweetID;
